@@ -3,21 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Hair Design - Professional Styling at Your Doorstep</title>
     <meta name="description" content="Experience salon-quality haircare in the comfort of your home with our professional mobile hair design services.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="font-['Poppins'] antialiased">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <h1 class="text-2xl font-['Playfair_Display'] font-bold text-gray-800">Mobile Hair Design</h1>
+                <a href="https://JonPBoy.github.io/mobile-hair-desgn-2025-03-09-uyvfm" class="text-2xl font-['Playfair_Display'] font-bold text-gray-800 hover:text-rose-500 transition-colors duration-300">Mobile Hair Design</a>
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl text-gray-600 hover:text-rose-500 transition-colors duration-300"></i>
+                </button>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#services" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Services</a>
-                    <a href="#benefits" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Benefits</a>
-                    <a href="#contact" class="bg-rose-500 text-white px-6 py-2 rounded-full hover:bg-rose-600 transition-all duration-300 transform hover:scale-105">Book Now</a>
+                    <a href="#services" class="text-gray-600 hover:text-rose-500 transition-colors duration-300">Services</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-rose-500 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-rose-500 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-rose-500 transition-colors duration-300">About Us</a>
+                    <a href="#faq" class="text-gray-600 hover:text-rose-500 transition-colors duration-300">FAQ</a>
+                    <a href="#contact" class="bg-rose-500 text-white px-6 py-2 rounded-full hover:bg-rose-600 transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg">Book Now</a>
                 </div>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg">
+                <a href="#services" class="block px-4 py-2 text-gray-600 hover:bg-rose-50 hover:text-rose-500 transition-colors duration-300">Services</a>
+                <a href="#benefits" class="block px-4 py-2 text-gray-600 hover:bg-rose-50 hover:text-rose-500 transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block px-4 py-2 text-gray-600 hover:bg-rose-50 hover:text-rose-500 transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block px-4 py-2 text-gray-600 hover:bg-rose-50 hover:text-rose-500 transition-colors duration-300">About Us</a>
+                <a href="#faq" class="block px-4 py-2 text-gray-600 hover:bg-rose-50 hover:text-rose-500 transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block px-4 py-2 text-white bg-rose-500 hover:bg-rose-600 transition-colors duration-300">Book Now</a>
             </div>
         </nav>
     </header>
@@ -26,9 +49,9 @@
         <section class="pt-32 pb-20 bg-gradient-to-r from-rose-50 to-pink-50">
             <div class="container mx-auto px-6">
                 <div class="max-w-4xl mx-auto text-center">
-                    <h2 class="text-4xl md:text-5xl lg:text-6xl font-['Playfair_Display'] font-bold text-gray-900 mb-6">Professional Hair Styling at Your Doorstep</h2>
-                    <p class="text-xl text-gray-600 mb-10">Experience salon-quality haircare in the comfort of your home</p>
-                    <a href="tel=9493072748" class="inline-block bg-rose-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-rose-600 transition-all duration-300 transform hover:scale-105 shadow-lg">Schedule Your Appointment</a>
+                    <h2 class="text-4xl md:text-5xl lg:text-6xl font-['Playfair_Display'] font-bold text-gray-900 mb-6">Transform Your Look with Expert Mobile Hair Styling</h2>
+                    <p class="text-xl text-gray-600 mb-10">Experience the luxury of professional salon services in the comfort of your own home. Our expert stylists bring the salon experience to you, saving time and ensuring personalized attention.</p>
+                    <a href="tel:9493072748" class="inline-block bg-rose-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-rose-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">Schedule Your Appointment Today</a>
                 </div>
             </div>
         </section>
@@ -44,9 +67,27 @@
                             </svg>
                         </div>
                         <h4 class="text-xl font-semibold mb-4">Expert Hair Extensions</h4>
-                        <p class="text-gray-600">Professional installation and maintenance of premium hair extensions.</p>
+                        <p class="text-gray-600">Professional installation and maintenance of premium hair extensions, customized to match your natural hair perfectly. Includes consultation and styling.</p>
                     </div>
-                    <!-- Additional service cards would go here -->
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-4">Precision Cuts & Styling</h4>
+                        <p class="text-gray-600">Customized haircuts and styling services using advanced techniques and premium products for a perfect finish every time.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-semibold mb-4">Color & Highlights</h4>
+                        <p class="text-gray-600">Professional color services including balayage, highlights, and full color treatments using salon-quality products for vibrant, long-lasting results.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -55,27 +96,97 @@
             <div class="container mx-auto px-6">
                 <h3 class="text-3xl font-['Playfair_Display'] font-bold text-center mb-16">Why Choose Us</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-                    <div class="bg-white p-8 rounded-2xl shadow-lg">
-                        <h4 class="text-xl font-semibold mb-4">Save Time</h4>
-                        <p class="text-gray-600">Eliminate travel time and salon wait times with our convenient home visits.</p>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <h4 class="text-xl font-semibold mb-4">Save Valuable Time</h4>
+                        <p class="text-gray-600">Skip the commute and salon wait times. Our mobile service saves you an average of 2 hours per appointment while delivering premium results.</p>
                     </div>
-                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                         <h4 class="text-xl font-semibold mb-4">Flexible Scheduling</h4>
-                        <p class="text-gray-600">Book appointments at times that work best for your busy schedule.</p>
+                        <p class="text-gray-600">Early morning, evening, and weekend appointments available. We work around your schedule to provide maximum convenience.</p>
                     </div>
-                    <div class="bg-white p-8 rounded-2xl shadow-lg">
-                        <h4 class="text-xl font-semibold mb-4">Home Comfort</h4>
-                        <p class="text-gray-600">Enjoy professional styling services in your familiar environment.</p>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <h4 class="text-xl font-semibold mb-4">Premium Home Experience</h4>
+                        <p class="text-gray-600">Enjoy salon-quality services in your comfortable environment. No more noisy salons or uncomfortable chairs.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="py-24 bg-gray-900 text-white">
-            <div class="container mx-auto px-6 text-center">
+        <section id="testimonials" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h3 class="text-3xl font-['Playfair_Display'] font-bold text-center mb-16">Client Testimonials</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="flex text-rose-500 mb-4">★★★★★</div>
+                        <p class="text-gray-600 mb-4">"The convenience of having my hair done at home is incredible. Sarah did an amazing job with my extensions - they look and feel completely natural. Saved me hours of salon time!"</p>
+                        <p class="font-semibold">Jennifer Martinez</p>
+                        <p class="text-sm text-gray-500">Marketing Executive, Tech Corp</p>
+                    </div>
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="flex text-rose-500 mb-4">★★★★★</div>
+                        <p class="text-gray-600 mb-4">"Best color treatment I've ever had. The stylist was professional, punctual, and achieved exactly the shade I wanted. Plus, no salon smell in my house!"</p>
+                        <p class="font-semibold">Michael Chen</p>
+                        <p class="text-sm text-gray-500">Software Engineer</p>
+                    </div>
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="flex text-rose-500 mb-4">★★★★★</div>
+                        <p class="text-gray-600 mb-4">"As a busy mom, this service is a game-changer. I can get my hair done while the kids nap. The quality is exceptional!"</p>
+                        <p class="font-semibold">Rachel Thompson</p>
+                        <p class="text-sm text-gray-500">Business Owner</p>
+                    </div>
+                    <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="flex text-rose-500 mb-4">★★★★★</div>
+                        <p class="text-gray-600 mb-4">"The attention to detail and personalized service is unmatched. My stylist really listened to what I wanted and delivered perfect results."</p>
+                        <p class="font-semibold">David Wilson</p>
+                        <p class="text-sm text-gray-500">Financial Analyst</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gradient-to-r from-rose-50 to-pink-50">
+            <div class="container mx-auto px-6">
+                <h3 class="text-3xl font-['Playfair_Display'] font-bold text-center mb-16">About Us</h3>
+                <div class="max-w-3xl mx-auto">
+                    <p class="text-gray-600 mb-8">Founded in 2020, Mobile Hair Design was born from a vision to revolutionize the traditional salon experience. Our founder, with over 15 years of experience in premium salons, recognized the growing need for high-quality, convenient hair services that fit into our clients' busy lives.</p>
+                    <p class="text-gray-600">Our mission is to deliver exceptional hair care services with unmatched convenience. We believe in combining professional expertise with personalized attention, using only premium products and techniques. Our core values of excellence, convenience, and customer satisfaction drive everything we do.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h3 class="text-3xl font-['Playfair_Display'] font-bold text-center mb-16">Frequently Asked Questions</h3>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <div class="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-all duration-300">
+                        <h4 class="text-xl font-semibold mb-3">How do I schedule an appointment?</h4>
+                        <p class="text-gray-600">Simply call or text us at (949) 307-2748. We'll discuss your needs, confirm availability, and schedule a convenient time for your service.</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-all duration-300">
+                        <h4 class="text-xl font-semibold mb-3">What areas do you service?</h4>
+                        <p class="text-gray-600">We currently serve all of Orange County and select areas of Los Angeles County. Contact us to confirm service availability in your area.</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-all duration-300">
+                        <h4 class="text-xl font-semibold mb-3">What payment methods do you accept?</h4>
+                        <p class="text-gray-600">We accept all major credit cards, cash, and digital payments including Venmo and PayPal. Payment is required at the time of service.</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-all duration-300">
+                        <h4 class="text-xl font-semibold mb-3">What products do you use?</h4>
+                        <p class="text-gray-600">We use only premium, salon-quality products from trusted brands. All products are carefully selected for optimal results and hair health.</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-all duration-300">
+                        <h4 class="text-xl font-semibold mb-3">What is your cancellation policy?</h4>
+                        <p class="text-gray-600">We require 24 hours notice for cancellations. Late cancellations or no-shows may incur a fee of 50% of the service price.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-24 bg-gray-900 text-white" style="background-image: url('https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); background-size: cover; background-position: center;">
+            <div class="container mx-auto px-6 text-center bg-black/50 py-16 rounded-3xl">
                 <h3 class="text-3xl font-['Playfair_Display'] font-bold mb-8">Ready to Transform Your Look?</h3>
-                <p class="text-xl mb-10">Book your appointment today and experience luxury haircare at home</p>
-                <a href="tel=9493072748" class="inline-block bg-rose-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-rose-600 transition-all duration-300 transform hover:scale-105 shadow-lg">Call Now</a>
+                <p class="text-xl mb-10">Experience luxury haircare at home with our professional mobile services</p>
+                <a href="tel:9493072748" class="inline-block bg-rose-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-rose-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">Call Now: (949) 307-2748</a>
             </div>
         </section>
     </main>
@@ -92,11 +203,54 @@
                     <p class="text-gray-600">Email: jonpboy@gmail.com</p>
                     <p class="text-gray-600">Phone: (949) 307-2748</p>
                 </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <div class="space-y-2">
+                        <a href="https://JonPBoy.github.io/mobile-hair-desgn-2025-03-09-uyvfm/privacy.html" class="block text-gray-600 hover:text-rose-500 transition-colors duration-300">Privacy Policy</a>
+                        <a href="https://JonPBoy.github.io/mobile-hair-desgn-2025-03-09-uyvfm/terms.html" class="block text-gray-600 hover:text-rose-500 transition-colors duration-300">Terms of Service</a>
+                        <a href="https://JonPBoy.github.io/mobile-hair-desgn-2025-03-09-uyvfm/blog.html" class="block text-gray-600 hover:text-rose-500 transition-colors duration-300">Blog</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Service Areas</h4>
+                    <p class="text-gray-600">Orange County & Select LA County Areas</p>
+                </div>
             </div>
             <div class="border-t border-gray-200 mt-12 pt-8 text-center text-gray-600">
                 <p>&copy; 2024 Mobile Hair Design. All rights reserved.</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
